@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css"> 
+	<title></title>
+</head>
+<body>
+<div>
+	<form onsubmit=""><div class="form">
+		<h2>Register Here !</h2>
+		
+		<input style="padding: 10px; width: 300px; margin-right: 30px;" type="" name="Name" placeholder="Consumer name"><br><br>
+		
+		<input style="padding: 8px; width: 300px; margin-right: 30px;" type="number" name="Id" placeholder="Consumer Id"><br><br>
+		
+		<input style="padding: 8px; width: 300px; margin-right: 30px;" type="E-mail" name="E-mail" placeholder="E-mail id" ><br><br>
+		
+		<input style="padding: 8px; width: 300px; margin-right: 30px;" type="number" name="number" placeholder="mobile number"><br><br>
+	
+		<input style="padding: 8px; width: 300px; margin-right: 30px;" type="" name="Username" placeholder="username"><br><br>
+		
+		<input style="padding: 8px; width: 300px; margin-right: 30px;" placeholder="password"  type="password" value="" id="myInput" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
+  		<input style="padding: 8px; width: 300px;" type="password" placeholder="confirm_password" id="myInput"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
+  		<button onclick="validate()" style="padding: 9px;padding-right: 30px; padding-left: 30px; margin: 10px;" input="confirm" class="pure-button">Submit</button>
+  	</div>
+	</form>
+</div>
+<!-- <div id="message">
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+</div> -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>  	
+<script type="text/javascript" src="js/script.js"> //JAVASCRIPt
+	</script>
+</body>
+</html>
